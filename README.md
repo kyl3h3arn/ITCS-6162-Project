@@ -1,13 +1,13 @@
 # ITCS 6162 Summer 2024 Project:
 ### Research Question Placeholder
-Kyle Hearn
+Kyle Hearn, M.S. Computer Science Candidate
 ## Project Description:
 (a paragraph or two explaining the data, source, date, etc. State your goals -is your project descriptive, diagnostic, predictive or prescriptive?  Are you going to use unsupervised (no target) or supervised (target) learning?  Do you plan to use classification, clustering, linear or logistic regression, association rules?
 #### Relevant Domain Information:
 (links to two or more articles that relate to your research question; one will most likely come from the link to the data)
 ## Data Information:
 #### Student's Health & Academic Performance
-Description: This dataset can be used to analyze the impact of health on academic success, identify potential predictors of academic performance, and inform interventions to support students' overall well-being and academic achievement. \
+This data set consists of various aspects of mobile phone usage among students, along with their perceived impact on their health and performance. It provides valuable insights into how mobile phones affect students' health, academic performance, and daily activities. It can be used for further analysis to identify trends and correlations between mobile phone usage and its impacts on various aspects of students' lives. \
 \
 **Source:** https://www.kaggle.com/datasets/innocentmfa/students-health-and-academic-performance/data
 #### Columns:
@@ -32,5 +32,6 @@ Description: This dataset can be used to analyze the impact of health on academi
 - Health Precautions: Are students taking precautions to mitigate potential health risks? (Taking Break During Prolonged Use / Using Blue Light Filter / Limiting Screen Time / None of the Above)
 - Health Rating: How would students rate their overall physical and mental health? (Excellent / Good / Fair / Poor)
 ## EDA:
+
 ## Understanding:
 ## Data Preparation:
