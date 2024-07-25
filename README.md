@@ -15,7 +15,9 @@ Using supervised learning with a combination of classification and regression mo
 
 #### Relevant Domain Information:
 
-(links to two or more articles that relate to your research question; one will most likely come from the link to the data)
+Two separate studies published in the National Library of Medicine both find correlation between increased mobile phone usage, and increased negative efects on physical and mental wellbeing, as well as performance in the classroom.
+
+**Sources:** https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9368281/ | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9676861/
 
 ## Data Information:
 
