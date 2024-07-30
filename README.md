@@ -65,17 +65,17 @@ First, all columns (besides 'Name') were visualized using a count plot. Upon vie
 ![image](https://github.com/user-attachments/assets/aa7aa4e0-88b1-4956-8f8b-569f0cfd02f9)
 
 Next, the 'Daily Usages' category was set against the 'Health Rating', 'Performance Impact', and 'Symptom Frequency' categories, respectively. The following conclusions were made:
-- Daily Usage vs. Health Rating: Students with an "Excellent" health rating predominantly use their phones between 2-6 hours daily, with few exceptions going beyond 6 hours. Students with "Good" and "Fair" health ratings show varied usage, extending from less than 2 hours to over 6 hours. Those with a "Poor" health rating tend to use their phones for less than 4 hours daily.
-- Daily Usage vs. Performance Impact: Students who "Strongly Agree" and "Agree" that mobile phone usage impacts performance have higher and more variable daily usage. Those who "Disagree" have more consistent and lower daily usage. The "Neutral" group falls in between, with some outliers indicating more than 6 hours of usage.
-- Daily Usage vs. Symptom Frequency: Students who "Never" or "Rarely" experience symptoms have similar daily usage patterns, with medians around 4 hours and a wide range of usage times. Those who report experiencing symptoms "Sometimes" tend to have higher daily usage, with a median of around 5 hours and significant spread towards higher usage. \
+- **Daily Usage vs. Health Rating:** Students with an "Excellent" health rating predominantly use their phones between 2-6 hours daily, with few exceptions going beyond 6 hours. Students with "Good" and "Fair" health ratings show varied usage, extending from less than 2 hours to over 6 hours. Those with a "Poor" health rating tend to use their phones for less than 4 hours daily.
+- **Daily Usage vs. Performance Impact:** Students who "Strongly Agree" and "Agree" that mobile phone usage impacts performance have higher and more variable daily usage. Those who "Disagree" have more consistent and lower daily usage. The "Neutral" group falls in between, with some outliers indicating more than 6 hours of usage.
+- **Daily Usage vs. Symptom Frequency:** Students who "Never" or "Rarely" experience symptoms have similar daily usage patterns, with medians around 4 hours and a wide range of usage times. Those who report experiencing symptoms "Sometimes" tend to have higher daily usage, with a median of around 5 hours and significant spread towards higher usage. \
 **Visualizations:**
 
 ![image](https://github.com/user-attachments/assets/9d63a207-eb68-4300-a8ac-93ba771dac35)
 
 
 Next, the 'Health Precautions' category was categorized into binary categories, "yes" or "no", declaring whether or not health precaution(s) were taken by a student. This new category was set against the 'Symptom Frequency' and 'Health Rating' categories, respectively. The following conclusions were made:
-- Symptoms Frequency vs Taking Precautions: The median symptom frequency is "Rarely" for both groups, indicating that taking precautions does not significantly alter the frequency of symptoms experienced by students. The variability in symptom frequency is high for both groups, suggesting other factors might be influencing symptom frequency besides taking precautions.
-- Health Rating vs Taking Precautions: The median health rating is "Good" for both groups, suggesting that taking precautions does not significantly alter the overall health ratings among students. The variability in health ratings is high for both groups, indicating that health ratings are influenced by multiple factors beyond just taking precautions. \
+- **Symptoms Frequency vs Taking Precautions:** The median symptom frequency is "Rarely" for both groups, indicating that taking precautions does not significantly alter the frequency of symptoms experienced by students. The variability in symptom frequency is high for both groups, suggesting other factors might be influencing symptom frequency besides taking precautions.
+- **Health Rating vs Taking Precautions:** The median health rating is "Good" for both groups, suggesting that taking precautions does not significantly alter the overall health ratings among students. The variability in health ratings is high for both groups, indicating that health ratings are influenced by multiple factors beyond just taking precautions. \
 **Visualizations:**
 
 ![image](https://github.com/user-attachments/assets/cf8db57a-af34-496f-8b6a-39aa3217155c)
