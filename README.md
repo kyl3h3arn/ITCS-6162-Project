@@ -5,7 +5,7 @@ Kyle Hearn, M.S. Computer Science Candidate
 
 ### Research Question: Does Increased Mobile Phone Use Impact Student Health & Performance?
 
-As mobile phone usage is becoming ever more common in our personal and social lives, it is inevitable that the age of mobile phone use for learning is upon us as well. Is this necessarily a good thing? This project will seek to find and predict an answer to this question based on the Student Health & Academic performance.
+As mobile phone usage is becoming ever more common in our personal and social lives, it is inevitable that the age of mobile phone use for learning is upon us as well. Is this necessarily a good thing? This project will seek to find and predict an answer to this question based on the Student Health & Academic performance data set.
 
 ## Project Description:
 
