@@ -116,3 +116,16 @@ The following were made to prepare the data before applying machine learning:
 3. Changed data type of all columns to 'category' for easier manipulation.
 4. Removed 'Name' column.
 5. Removed 'Mobile Phone' column.
+
+## Modeling:
+
+[//]: # (two or more methods used to model data. Perhaps two for each of the mixes?)
+
+## Evaluation:
+
+[//]: # (talk about which data predicted more accurately,)
+
+## Conclusion:
+
+[//]: #  (talk about if there are any final words about this data set, if it has bias, predictors, basically any known problems within it.)
+
