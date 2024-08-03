@@ -109,17 +109,19 @@ After the initial data exploration process, the following conclusions can be mad
 - Awareness programs about the impact of high mobile phone usage on health and performance might help students manage their usage better.
 - Implementing and promoting health precautions like using blue light filters, taking breaks during prolonged use, and limiting screen time could mitigate health risks associated with mobile phone usage.
 
-## Data Preparation:
-The following were made to prepare the data before applying machine learning:
+## Data Preprocessing:
+The following changes were made to prepare the data before applying machine learning:
 1. Cleaned the column names by stripping leading and trailing whitespace
 2. Filled in missing data entries with 'unknown'.
 3. Changed data type of all columns to 'category' for easier manipulation.
-4. Removed 'Name' column.
-5. Removed 'Mobile Phone' column.
+4. Removed 'Name' and 'Mobile Phone' columns.
+5. 'Attention Span', 'Health Risks', 'Health Precautions', 'Helpful For Studying' columns to categorial columns for PyCaret.
+6. All other columns changed to numerical.
+7. Saved Preprocessed data to CSV for modeling.
 
 ## Modeling:
 
-[//]: # (two or more methods used to model data. Perhaps two for each of the mixes?)
+In order to determine a proper model 
 
 ## Evaluation:
 
