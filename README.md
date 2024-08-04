@@ -11,7 +11,7 @@ As mobile phone usage is becoming ever more common in our personal and social li
 
 This is a diagnostic and predictive project. It aims to understand the impact of mobile phone usage on students' health and academic performance and to predict outcomes based on usage patterns. By analyzing patterns and relationships in the data, key factors that influence these outcomes can be identified. This understanding can inform educators, parents, and policymakers about the benefits and drawbacks of mobile phone usage in educational settings. 
 
-Using supervised learning with a combination of classification and regression models will allow us to predict the impact of mobile phone use on student health and academic performance effectively. This approach provides a structured method to develop predictive models that can help students and educators make informed decisions based on data-driven insights.
+This project uses supervised learning trhough the use of classification techniques. Specifically, Support Vector Machine (SVM) and Decision Tree models are employed to classify the health rating of students into categories based on their mobile phone usage patterns. These models are suitable for categorizing data into distinct classes, making them ideal for this task.
 
 #### Relevant Domain Information:
 
@@ -111,17 +111,32 @@ After the initial data exploration process, the following conclusions can be mad
 
 ## Data Preprocessing:
 The following changes were made to prepare the data before applying machine learning:
-1. Cleaned the column names by stripping leading and trailing whitespace
-2. Filled in missing data entries with 'unknown'.
-3. Changed data type of all columns to 'category' for easier manipulation.
-4. Removed 'Name' and 'Mobile Phone' columns.
-5. 'Attention Span', 'Health Risks', 'Health Precautions', 'Helpful For Studying' columns to categorial columns for PyCaret.
-6. All other columns changed to numerical.
-7. Saved Preprocessed data to CSV for modeling.
+1. Strips whitespace from column names.
+2. Fills missing values in the Health rating column with 'Good' and consolidates similar classes for uniformity.
+3. Transforms Health precautions into a binary format ('Yes' or 'No'). 
+1. Categorical variables are encoded using LabelEncoder to convert them into numerical values, which is necessary for machine learning models. 
+1. Selects relevant features (X) and the target variable (y), which is Health rating.
+2. Encodes the target variable for model training. 
+1. Creates new features by combining existing ones: Mobile_OS_Education and Activities_Helpful, potentially enhancing model performance by capturing interactions between features. 
+
+This initial setup prepares the dataset for building and evaluating machine learning models.
 
 ## Modeling:
+#### Support Vector Machine Model:
+The following details the implementation of the SVM Model. See Jupyter Notebook for code.
 
-In order to determine a proper model 
+- Parameter Grid: Defines a grid of hyperparameters (C, kernel, degree, gamma) for tuning the SVM model.
+- StratifiedKFold: Sets up cross-validation to ensure each fold has the same proportion of classes as the entire dataset, reducing bias in performance evaluation.
+- GridSearchCV: Conducts a grid search to find the best combination of hyperparameters that yield the highest accuracy.
+- Model Training: Fits the SVM model with the best parameters to the scaled features (X_scaled) and encoded target (y_encoded).
+
+#### Decision Tree Model:
+The following details the implementation of the Decision Tree Model. See Jupyter Notebook for code.
+
+- Parameter Grid: Specifies hyperparameters for the Decision Tree (max_depth, min_samples_split, min_samples_leaf).
+- StratifiedKFold: Used again for consistent cross-validation.
+- GridSearchCV: Identifies the optimal parameters for the Decision Tree, similar to the SVM process.
+- Model Training: Fits the Decision Tree model using the best-found parameters.
 
 ## Evaluation:
 
