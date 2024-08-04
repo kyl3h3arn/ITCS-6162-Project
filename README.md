@@ -140,7 +140,8 @@ The following details the implementation of the Decision Tree Model. See Jupyter
 
 ## Evaluation:
 
-[//]: # (talk about which data predicted more accurately,)
+- Decision Tree vs. SVM: The Decision Tree model outperforms the SVM model in terms of accuracy and has a more balanced precision-recall trade-off across classes.
+- Challenges: The SVM model struggles with the "Fair" class, likely due to the small number of samples.
 
 ## Conclusion:
 
