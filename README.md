@@ -11,7 +11,7 @@ As mobile phone usage is becoming ever more common in our personal and social li
 
 This is a diagnostic and predictive project. It aims to understand the impact of mobile phone usage on students' health and academic performance and to predict outcomes based on usage patterns. By analyzing patterns and relationships in the data, key factors that influence these outcomes can be identified. This understanding can inform educators, parents, and policymakers about the benefits and drawbacks of mobile phone usage in educational settings. 
 
-This project uses supervised learning trhough the use of classification techniques. Specifically, Support Vector Machine (SVM) and Decision Tree models are employed to classify the health rating of students into categories based on their mobile phone usage patterns. These models are suitable for categorizing data into distinct classes, making them ideal for this task.
+This project uses supervised learning through the use of classification techniques. Specifically, Support Vector Machine (SVM) and Decision Tree models are employed to classify the health rating of students into categories based on their mobile phone usage patterns. These models are suitable for categorizing data into distinct classes, making them ideal for this task.
 
 #### Relevant Domain Information:
 
@@ -117,7 +117,7 @@ The following changes were made to prepare the data before applying machine lear
 1. Categorical variables are encoded using LabelEncoder to convert them into numerical values, which is necessary for machine learning models. 
 1. Selects relevant features (X) and the target variable (y), which is Health rating.
 2. Encodes the target variable for model training. 
-1. Creates new features by combining existing ones: Mobile_OS_Education and Activities_Helpful, potentially enhancing model performance by capturing interactions between features. 
+1. Creates new features by combining existing ones: 'Mobile_OS_Education' and 'Activities_Helpful', potentially enhancing model performance by capturing interactions between features. 
 
 This initial setup prepares the dataset for building and evaluating machine learning models.
 
@@ -140,10 +140,11 @@ The following details the implementation of the Decision Tree Model. See Jupyter
 
 ## Evaluation:
 
-- Decision Tree vs. SVM: The Decision Tree model outperforms the SVM model in terms of accuracy and has a more balanced precision-recall trade-off across classes.
-- Challenges: The SVM model struggles with the "Fair" class, likely due to the small number of samples.
+- The Decision Tree model's superior performance suggests that it effectively captured non-linear relationships and handled class imbalances better than the SVM.
+- The evaluation metrics (precision, recall, F1-score) highlighted areas where each model excelled or faltered, providing insights into their strengths and weaknesses.
+- The challenges faced by the SVM model in predicting the "Fair" class underscore the need for further exploration of class imbalance solutions or additional data to ensure better representation of underrepresented classes.
+- The feature engineering process demonstrated the importance of understanding domain-specific interactions, which can significantly enhance model performance.
 
-## Conclusion:
+## Conclusion: 
 
-[//]: #  (talk about if there are any final words about this data set, if it has bias, predictors, basically any known problems within it.)
-
+This project effectively leveraged the KDD process to extract meaningful patterns and insights from the dataset. By systematically selecting, preprocessing, transforming, and modeling the data, we identified key factors influencing students' health ratings. The Decision Tree model emerged as the more effective approach, providing a foundation for future work aimed at refining predictions and expanding the scope of analysis. Further exploration of additional features and alternative models could help address the limitations observed and enhance predictive accuracy.
