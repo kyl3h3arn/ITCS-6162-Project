@@ -39,8 +39,8 @@ This data set is a single .CSV file and consists of various aspects of mobile ph
 - Helpful for Studying: Do students find mobile phone use helpful for studying? (Y / N)
 - Educational Apps: List of educational apps used.
 - Daily Usages: Average daily time spent using mobile phone for educational purposes (Hours)
-- Performance Impact: How does mobile phone use impact academic performance? (Agree / Neutral / Strongly Agree)
-- Usage Distraction: Does mobile phone use distract from studying? (During Exams / Not Distracting / During Class Lectures / While Studying)
+- Performance Impact: Does mobile phone use impact academic performance? (Agree / Neutral / Strongly Agree / Disagree / Strongly Disagree)
+- Usage Distraction: When does mobile phone use distract from studying? (During Exams / Not Distracting / During Class Lectures / While Studying)
 - Attention Span: Has mobile phone use affected attention span? (Y/N)
 - Useful Featuures: What features of mobile phones are useful for learning? (e.g. Internet Access, Camera, Calculator, Notes Taking App)
 - Health Risks: Are students aware of the potential health risks associated with excessive mobile phone use? (Y / N / Only Partially)
