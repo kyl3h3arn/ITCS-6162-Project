@@ -145,6 +145,10 @@ The following details the implementation of the Decision Tree Model. See Jupyter
 - The challenges faced by the SVM model in predicting the "Fair" class underscore the need for further exploration of class imbalance solutions or additional data to ensure better representation of underrepresented classes.
 - The feature engineering process demonstrated the importance of understanding domain-specific interactions, which can significantly enhance model performance.
 
+#### Visualizations:
+![image](https://github.com/user-attachments/assets/90e718bc-47d3-4587-9d96-a9b382e416e9)
+![image](https://github.com/user-attachments/assets/7d23ea8d-d9f2-438e-bbd4-8dbc5b507373)
+
 ## Conclusion: 
 
 This project effectively leveraged the KDD process to extract meaningful patterns and insights from the dataset. By systematically selecting, preprocessing, transforming, and modeling the data, we identified key factors influencing students' health ratings. The Decision Tree model emerged as the more effective approach, providing a foundation for future work aimed at refining predictions and expanding the scope of analysis. Further exploration of additional features and alternative models could help address the limitations observed and enhance predictive accuracy.
